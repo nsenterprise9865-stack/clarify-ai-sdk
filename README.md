@@ -3,6 +3,7 @@
 <div align="center">
 
 ![Clarify AI SDK](https://img.shields.io/badge/Clarify_AI_SDK-v1.0-blueviolet?style=for-the-badge)
+[![JitPack](https://jitpack.io/v/nsenterprise9865-stack/clarifysdk.svg)](https://jitpack.io/#nsenterprise9865-stack/clarifysdk)
 [![Platform](https://img.shields.io/badge/Platform-Android_API_26+-green?style=for-the-badge&logo=android)](https://developer.android.com)
 [![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)](#-pricing)
 [![Play Store Demo](https://img.shields.io/badge/Live_Demo-Play_Store-brightgreen?style=for-the-badge&logo=google-play)](https://play.google.com/store/apps/details?id=com.nsenterprise.clarify)
@@ -79,7 +80,7 @@ repositories {
 
 // app/build.gradle.kts
 dependencies {
-    implementation("com.github.nsenterprise9865-stack:clarifysdk:1.0.0")
+    implementation("com.github.nsenterprise9865-stack:clarifysdk:main-SNAPSHOT")
 }
 ```
 
@@ -92,7 +93,7 @@ repositories {
 
 // app/build.gradle
 dependencies {
-    implementation 'com.github.nsenterprise9865-stack:clarifysdk:1.0.0'
+    implementation 'com.github.nsenterprise9865-stack:clarifysdk:main-SNAPSHOT'
 }
 ```
 
