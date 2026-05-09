@@ -46,7 +46,7 @@ Upscales any photo up to 4× its original resolution while recovering micro-deta
 
 | Original | Enhanced (4×) |
 |---|---|
-| ![Upscale Before](./upscale_after_v2.jpg) | ![Upscale After](./upscale_before_v2.jpg) |
+| ![Upscale Before](./upscale_before_v2.jpg) | ![Upscale After](./upscale_after_v2.jpg) |
 
 
 ### 🎨 Intelligent Face Blending
