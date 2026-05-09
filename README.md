@@ -2,6 +2,13 @@
 
 <div align="center">
 
+![Clarify AI SDK Banner](./marketing_banner.png)
+
+</div>
+
+
+<div align="center">
+
 ![Clarify AI SDK](https://img.shields.io/badge/Clarify_AI_SDK-v1.0-blueviolet?style=for-the-badge)
 [![JitPack](https://jitpack.io/v/nsenterprise9865-stack/clarifysdk.svg)](https://jitpack.io/#nsenterprise9865-stack/clarifysdk)
 [![Platform](https://img.shields.io/badge/Platform-Android_API_26+-green?style=for-the-badge&logo=android)](https://developer.android.com)
