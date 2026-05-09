@@ -45,7 +45,7 @@ Upscales any photo up to 4× its original resolution while recovering micro-deta
 
 | Original | Enhanced (4×) |
 |---|---|
-| ![Upscale Before](./upscale_after_v2.jpg) | ![Upscale After](./upscale_before_v2.jpg) |
+| ![Upscale Before](./upscale_before_v2.jpg) | ![Upscale After](./upscale_after_v2.jpg) |
 
 
 ### 🎨 Intelligent Face Blending
@@ -97,8 +97,9 @@ class MyApp : Application() {
 }
 ```
 
-### Enhance a photo
+### Step 3: Enhance
 
+#### **Kotlin**
 ```kotlin
 lifecycleScope.launch {
     val result = ClarifySDK.enhance(
@@ -110,7 +111,18 @@ lifecycleScope.launch {
 }
 ```
 
-**Three functions. Zero servers. Production-ready.**
+#### **Java**
+```java
+// For Java, use a simple coroutine bridge or background thread
+ClarifySDK.INSTANCE.enhance(context, originalBitmap, ClarifySDK.EnhanceMode.AUTO, (result) -> {
+    runOnUiThread(() -> {
+        imageView.setImageBitmap(result);
+    });
+    return Unit.INSTANCE;
+});
+```
+
+**Works with both Kotlin & Java. Zero servers. Production-ready.**
 
 ---
 
