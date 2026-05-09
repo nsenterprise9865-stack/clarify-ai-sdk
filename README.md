@@ -199,7 +199,7 @@ For developers in Bangladesh, you can pay via **bKash (Send Money)** at the curr
 
 <div align="center">
 
-![bKash QR](./bkash_qr.png)
+![bKash QR](./bkash_qr.jpeg)
 
 </div>
 
