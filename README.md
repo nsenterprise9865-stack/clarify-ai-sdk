@@ -37,7 +37,7 @@ Restores heavily degraded, blurry, or compressed faces with studio-level clarity
 
 | Original | Enhanced |
 |---|---|
-| ![Face Before](./face_demo_1_before.jpg) | ![Face After](./face_demo_1_after.jpg) |
+| ![Face Before](./face_before_v2.jpg) | ![Face After](./face_after_v2.jpg) |
 
 
 ### 🖼 4× Super-Resolution (Real-ESRGAN)
@@ -45,7 +45,7 @@ Upscales any photo up to 4× its original resolution while recovering micro-deta
 
 | Original | Enhanced (4×) |
 |---|---|
-| ![Upscale Before](./upscale_demo_before.jpg) | ![Upscale After](./upscale_demo_after.jpg) |
+| ![Upscale Before](./upscale_before_v2.jpg) | ![Upscale After](./upscale_after_v2.jpg) |
 
 
 ### 🎨 Intelligent Face Blending
