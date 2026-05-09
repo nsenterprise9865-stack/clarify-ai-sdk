@@ -68,10 +68,9 @@ See exactly what your users will experience. Download the official Clarify app â
 
 ---
 
-## âš¡ Quick Start
+### Step 1: Add to your project
 
-### Add to your project
-
+#### **Kotlin DSL (`build.gradle.kts`)**
 ```kotlin
 // settings.gradle.kts
 repositories {
@@ -84,15 +83,38 @@ dependencies {
 }
 ```
 
-### Initialize with your license key
+#### **Groovy (`build.gradle`)**
+```groovy
+// settings.gradle
+repositories {
+    maven { url 'https://jitpack.io' }
+}
 
+// app/build.gradle
+dependencies {
+    implementation 'com.github.nsenterprise9865-stack:clarifysdk:1.0.0'
+}
+```
+
+### Step 2: Initialize with your license key
+
+#### **Kotlin**
 ```kotlin
 class MyApp : Application() {
     override fun onCreate() {
         super.onCreate()
-        lifecycleScope.launch {
-            ClarifySDK.initialize(this@MyApp, key = "clarify_live_YOUR_KEY")
-        }
+        ClarifySDK.initialize(this, "clarify_live_YOUR_KEY")
+    }
+}
+```
+
+#### **Java**
+```java
+public class MyApp extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        ClarifySDK.INSTANCE.initialize(this, "clarify_live_YOUR_KEY");
     }
 }
 ```
