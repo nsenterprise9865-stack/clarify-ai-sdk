@@ -180,6 +180,29 @@ ClarifySDK.INSTANCE.enhance(context, originalBitmap, ClarifySDK.EnhanceMode.AUTO
 
 </div>
 
+---
+
+## 🇧🇩 Payment Options (Bangladesh)
+
+For developers in Bangladesh, you can pay via **bKash (Send Money)** at the current market exchange rate.
+
+### 💳 Pricing in BDT
+*   **Indie**: $49 × [Current Rate] ৳
+*   **Business**: $149 × [Current Rate] ৳
+*   *(Current Rate ~118-120 BDT/USD)*
+
+### 📲 How to Pay via bKash:
+1.  Scan the QR code below or use number: **01904891242**
+2.  **Send Money** the total amount in BDT.
+3.  In the **Reference**, put your **GitHub Username**.
+4.  After payment, email the transaction ID to [nsenterprise9865@gmail.com](mailto:nsenterprise9865@gmail.com).
+
+<div align="center">
+
+![bKash QR](./bkash_qr.png)
+
+</div>
+
 > **How to buy:** Email [nsenterprise9865@gmail.com](mailto:nsenterprise9865@gmail.com) with your plan. You will receive a payment link and your license key within **24 hours**.
 
 ---
