@@ -35,8 +35,18 @@ If you are using Replicate, Stability AI, or any cloud API to enhance photos, yo
 ### 👤 Face Restoration (GFPGAN v1.4)
 Restores heavily degraded, blurry, or compressed faces with studio-level clarity. Works on old scanned photos, low-resolution portrait shots, and heavily compressed images.
 
+| Original | Enhanced |
+|---|---|
+| ![Face Before](./face_demo_1_before.jpg) | ![Face After](./face_demo_1_after.jpg) |
+
+
 ### 🖼 4× Super-Resolution (Real-ESRGAN)
 Upscales any photo up to 4× its original resolution while recovering micro-details, skin textures, and sharpness that were never visible before.
+
+| Original | Enhanced (4×) |
+|---|---|
+| ![Upscale Before](./upscale_demo_before.jpg) | ![Upscale After](./upscale_demo_after.jpg) |
+
 
 ### 🎨 Intelligent Face Blending
 Advanced feathered-mask technology blends each restored face seamlessly back into the upscaled background. Users can't tell AI was involved.
